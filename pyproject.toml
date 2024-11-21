@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "scrape"
+version = "0.1.0"
+description = ""
+authors = ["jerome <jerome.desseaux@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+selenium = "^4.26.1"
+pandas = "^2.2.3"
+requests-html = "^0.10.0"
+lxml = {version = "^5.3.0", extras = ["html_clean"]}
+playwright = "^1.48.0"
+tqdm = "^4.67.0"
+aiofiles = "^24.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

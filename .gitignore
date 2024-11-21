@@ -1,0 +1,24 @@
+# Ignore files within error_logs and screenshots, but not the directories
+error_logs/*
+!error_logs/.gitkeep
+
+screenshots/*
+!screenshots/.gitkeep
+
+# Ignore Python virtual environment
+.venv/
+
+# Ignore generated CSV files
+*.csv
+
+# Ignore backup and temporary files
+*.bak
+*.tmp
+*.swp
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore test HTML files (if they're only temporary)
+*.html
