@@ -1,6 +1,3 @@
-Here's a `README.md` file to help set up and run your project:
-
-```markdown
 # Job Scraper
 
 This project scrapes job listings from Welcome to the Jungle (WTTJ) based on specified queries and outputs the results into a CSV file. It uses `playwright` for web scraping and `poetry` for dependency management.
